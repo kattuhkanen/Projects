@@ -1,5 +1,3 @@
-package Testikoe;
-
 import java.util.Scanner;
 
 
@@ -14,11 +12,11 @@ public class TankkausOhjelma {
 
 		Scanner scanner = new Scanner(System.in);
 
-		System.out.print("Anna p‰iv‰m‰‰r‰: ");
+		System.out.print("Anna p√§iv√§m√§√§r√§: ");
 
 		String date = scanner.nextLine();
 
-		System.out.print("Anna tankattu m‰‰r‰: ");
+		System.out.print("Anna tankattu m√§√§r√§: ");
 
 		double amount = scanner.nextDouble();
 
