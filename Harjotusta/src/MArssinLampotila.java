@@ -1,5 +1,3 @@
-package Listoja;
-
 import java.util.Scanner;
 
 
@@ -32,7 +30,7 @@ public class MArssinLampotila {
 
 		while (temp < measure.length) {
 
-			System.out.print("Syötä mittaus " + Math.addExact(temp, 1) + "/10: ");
+			System.out.print("SyÃ¶tÃ¤ mittaus " + Math.addExact(temp, 1) + "/10: ");
 
 			index = scanner.nextInt();
 
@@ -60,7 +58,7 @@ public class MArssinLampotila {
 
 			} else {
 
-				System.out.println("Anna lämpötila väliltä -140 - +20!");
+				System.out.println("Anna lÃ¤mpÃ¶tila vÃ¤liltÃ¤ -140 - +20!");
 
 			}
 
