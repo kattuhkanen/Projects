@@ -1,6 +1,3 @@
-package Listoja;
-
-
 import java.util.Scanner;
 
 
