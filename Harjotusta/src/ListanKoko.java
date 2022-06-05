@@ -15,7 +15,7 @@ public class ListanKoko {
 
 
 
-        System.out.println("Syˆt‰ sanoja listalle. Tyhj‰ tai yhdysviiva (-) lopettaa:");
+        System.out.println("Sy√∂t√§ sanoja listalle. Tyhj√§ tai yhdysviiva (-) lopettaa:");
 
 
 
@@ -44,13 +44,12 @@ public class ListanKoko {
        
 
 
-        System.out.println(); // Tyhj‰ rivi tulosteeseen
+        System.out.println(); 
 
 		int syotteita = lista.size();
 
-        // TODO: Muokkaa alla olevaa koodia teht‰v‰nannon mukaisesti
 
-        System.out.println("Yhteens‰: " + syotteita);
+        System.out.println("Yhteens√§: " + syotteita);
 
     }
 
