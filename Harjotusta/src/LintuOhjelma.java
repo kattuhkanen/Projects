@@ -1,4 +1,4 @@
-package Testikoe;
+
 
 import java.util.ArrayList;
 
@@ -24,7 +24,7 @@ public class LintuOhjelma {
 
 		while (true) {
 
-			System.out.println("1 = Lisää uusi merkintä\r\n" + "2 = Näytä kaikki merkinnät\r\n" + "0 = Lopeta");
+			System.out.println("1 = LisÃ¤Ã¤ uusi merkintÃ¤\r\n" + "2 = NÃ¤ytÃ¤ kaikki merkinnÃ¤t\r\n" + "0 = Lopeta");
 
 			System.out.print("Anna valintasi: ");
 
@@ -48,7 +48,7 @@ public class LintuOhjelma {
 
 
 
-				// Tarkastetaan löytyykö kyseinen laji listalta
+				// Tarkastetaan lÃ¶ytyykÃ¶ kyseinen laji listalta
 
 				for (Lintu lintu : linnut) {
 
@@ -72,24 +72,13 @@ public class LintuOhjelma {
 
 					linnut.add(havainto);
 
-				}
-
-
-
-				// kysy laji
-
-				// kasvata havaintoja tai lisää uusi tieto
+				
 
 
 
 			} else if (choose == 2) {
 
-				// TUlosta kaikki
-
-				// Laji: Talitintti
-
-				// Maara: 3
-
+				
 				for (Lintu lintu : linnut) {
 
 					System.out.println("Laji: " + lintu.getLaji());
