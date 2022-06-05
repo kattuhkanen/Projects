@@ -17,15 +17,12 @@ public class ToisenJaKolmannenSumma {
 
 
 
-        System.out.println("Syötä kokonaislukuja listalle (0 lopettaa):");
+        System.out.println("SyÃ¶tÃ¤ kokonaislukuja listalle (0 lopettaa):");
 
 
 
         while (true) {
 
-            // Syötetty merkkijono voidaan muuttaa kokonaisluvuksi
-
-            // myös Integer.parseInt-metodilla
 
             int syote = Integer.parseInt(lukija.nextLine());
 
@@ -49,11 +46,7 @@ public class ToisenJaKolmannenSumma {
 
 
 
-        System.out.println(); // Tyhjä rivi tulosteeseen
-
-
-
-        // TODO: Muokkaa alla olevaa koodia tehtävänannon mukaisesti
+        System.out.println();
 
         int eka = luvut.get(1) + luvut.get(2);
 
