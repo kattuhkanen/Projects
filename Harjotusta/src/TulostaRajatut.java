@@ -23,13 +23,13 @@ public class TulostaRajatut {
 
 
 
-        System.out.println("Luvut v‰lill‰ [0, 5]");
+        System.out.println("Luvut v√§lill√§ [0, 5]");
 
         tulostaRajatutLuvut(luvut, 0, 5);
 
 
 
-        System.out.println("Luvut v‰lill‰ [3, 10]");
+        System.out.println("Luvut v√§lill√§ [3, 10]");
 
         tulostaRajatutLuvut(luvut, 3, 10);
 
@@ -39,7 +39,7 @@ public class TulostaRajatut {
 
     public static void tulostaRajatutLuvut(ArrayList<Integer> luvut, int alaraja, int ylaraja) {
 
-        // TODO: toteuta metodin sis‰ltˆ
+       
 
     }
 
