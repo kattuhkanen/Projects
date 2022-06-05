@@ -1,5 +1,3 @@
-package viikko6;
-
 import java.util.InputMismatchException;
 
 import java.util.Scanner;
@@ -28,7 +26,7 @@ public class Summaaja {
 
 		while (check = true) {
 
-			System.out.print("Syötä seuraava luku (0 lopettaa): ");
+			System.out.print("SyÃ¶tÃ¤ seuraava luku (0 lopettaa): ");
 
 			try {
 
@@ -52,7 +50,7 @@ public class Summaaja {
 
 			} catch (InputMismatchException e) {
 
-				System.out.println("Virheellinen syöte!");
+				System.out.println("Virheellinen syÃ¶te!");
 
 				scanner.nextLine();
 
