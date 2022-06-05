@@ -1,6 +1,3 @@
-package Koe;
-
-
 import java.util.Scanner;
 
 
@@ -29,7 +26,7 @@ public class KestoSekunteina {
 
 
 
-		System.out.println("Yhteensä " + kestoSekunteina(tunnit, minuutit, sekunnit) + " sekuntia.");
+		System.out.println("YhteensÃ¤ " + kestoSekunteina(tunnit, minuutit, sekunnit) + " sekuntia.");
 
 
 
