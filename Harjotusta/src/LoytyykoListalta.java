@@ -17,7 +17,7 @@ public class LoytyykoListalta {
 
 
 
-        System.out.println("Syˆt‰ sanoja listalle. Tyhj‰ tai yhdysviiva (-) lopettaa:");
+        System.out.println("Sy√∂t√§ sanoja listalle. Tyhj√§ tai yhdysviiva (-) lopettaa:");
 
 
 
@@ -41,11 +41,10 @@ public class LoytyykoListalta {
 
 
 
-        System.out.println(); // Tyhj‰ rivi tulosteeseen
+        System.out.println(); 
 
 
-
-        System.out.print("Ket‰ etsit‰‰n? ");
+        System.out.print("Ket√§ etsit√§√§n? ");
 
         String etsittava = lukija.nextLine();
 
@@ -54,22 +53,16 @@ public class LoytyykoListalta {
         lukija.close();
 
 
-
-        // TODO: Muokkaa alla olevaa koodia teht‰v‰nannon mukaisesti.
-
-
-
-        // Tulosta:
         boolean loytyiko = lista.contains(etsittava);
         if (loytyiko) {
-        System.out.println(etsittava + " lˆytyi!");
+        System.out.println(etsittava + " l√∂ytyi!");
 
         }
         
         if (!loytyiko) {
-        // Tai:
+       
 
-        System.out.println(etsittava + " ei lˆytynyt!");
+        System.out.println(etsittava + " ei l√∂ytynyt!");
 
     }
 
