@@ -1,5 +1,3 @@
-package Koe;
-
 import java.util.ArrayList;
 
 
@@ -64,7 +62,7 @@ public class Joukkue {
 
 
 
-		System.out.println("=== Ensimm‰inen joukkue ===");
+		System.out.println("=== Ensimm√§inen joukkue ===");
 
 
 
@@ -80,7 +78,7 @@ public class Joukkue {
 
 
 
-		// Muutetaan Joelin s‰hkˆpostiosoite:
+		// Muutetaan Joelin s√§hk√∂postiosoite:
 
 
 
@@ -88,7 +86,7 @@ public class Joukkue {
 
 
 
-		// Tulostetaan uudella s‰hkˆpostiosoitteella:
+		// Tulostetaan uudella s√§hk√∂postiosoitteella:
 
 
 
