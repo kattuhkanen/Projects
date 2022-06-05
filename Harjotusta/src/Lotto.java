@@ -1,5 +1,3 @@
-package viikko4;
-
 import java.util.ArrayList;
 
 import java.util.List;
@@ -28,7 +26,7 @@ public class Lotto extends Leikkaus {
 
 		
 
-		System.out.print("Anna oikea rivi (7 numeroa + lis‰numero): ");
+		System.out.print("Anna oikea rivi (7 numeroa + lis√§numero): ");
 
 		while(input.size()<8) {
 
@@ -78,7 +76,7 @@ public class Lotto extends Leikkaus {
 
 		if (checkExtra == true) {
 
-			System.out.println(System.lineSeparator() + rightOnes.size() + " oikein ja lis‰numero.");
+			System.out.println(System.lineSeparator() + rightOnes.size() + " oikein ja lis√§numero.");
 
 		} else {
 
@@ -126,7 +124,7 @@ public class Lotto extends Leikkaus {
 
 		if (check = true) {
 
-			System.out.println(tempList1.size() + " oikein ja lis‰numero.");
+			System.out.println(tempList1.size() + " oikein ja lis√§numero.");
 
 		} else {
 
