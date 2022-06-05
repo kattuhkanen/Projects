@@ -19,7 +19,7 @@ public class ListanLukujenSumma {
 
 
 
-        System.out.println("Syötä kokonaislukuja listalle (-1 lopettaa):");
+        System.out.println("SyÃ¶tÃ¤ kokonaislukuja listalle (-1 lopettaa):");
 
 
 
@@ -51,11 +51,10 @@ public class ListanLukujenSumma {
         
       
 
-        System.out.println(); // Tyhjä rivi tulosteeseen
+        System.out.println();
 
         
 
-        // TODO: Täydennä koodia tehtävänannon mukaisesti
 
         System.out.println("Summa: " + summa);
 
