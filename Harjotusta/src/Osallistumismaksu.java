@@ -1,6 +1,3 @@
-package Testikoe;
-
-
 import java.text.DecimalFormat;
 
 import java.util.Scanner;
@@ -13,7 +10,7 @@ public class Osallistumismaksu {
 
 		Scanner scanner = new Scanner(System.in);
 
-		System.out.print("Kirjoita ik‰si: ");
+		System.out.print("Kirjoita ik√§si: ");
 
 		int ika = scanner.nextInt();
 
