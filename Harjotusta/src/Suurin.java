@@ -20,7 +20,7 @@ public class Suurin {
         int large = 0;
 	    int num;
 	    
-        System.out.println("Syötä kokonaislukuja listalle (-1 lopettaa):");
+        System.out.println("SyÃ¶tÃ¤ kokonaislukuja listalle (-1 lopettaa):");
         Scanner lukija = new Scanner(System.in);
 	    int n = lukija.nextInt();
 	    num = lukija.nextInt();
@@ -48,15 +48,15 @@ public class Suurin {
 
 
 
-        System.out.println(); // Tyhjä rivi tulosteeseen
+        System.out.println(); 
 
         for (int i = 2; i < n; i++) {
 	        num = lukija.nextInt();
-	        //comparing each time entered number with large on
+	
 	        if (num > large) {
 	            large = num;
 	        }
-	        //comparing each time entered number with smallest one
+	      
 	       
 	    }
 	    System.out.println("the largest is:" + large);
