@@ -6,7 +6,7 @@ public class Euro {
 		// TODO Auto-generated method stub
 		Scanner lukija = new Scanner(System.in);
 		
-		System.out.println("Syˆt‰ jokin markkam‰‰r‰:");
+		System.out.println("Sy√∂t√§ jokin markkam√§√§r√§:");
 		int maara = lukija.nextInt();
 		
 		double markka = 5.94573;
@@ -17,8 +17,3 @@ public class Euro {
 	}
 
 }
-//  int eka_luku = 4;
-//int toka_luku = 3;
-//double osa_maara;
-
-///osa_maara = (double)eka_luku / toka_luku;
