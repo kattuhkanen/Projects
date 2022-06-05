@@ -1,5 +1,3 @@
-package viikko1;
-
 import java.util.Scanner;
 
 
