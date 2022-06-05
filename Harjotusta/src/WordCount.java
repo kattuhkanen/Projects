@@ -1,6 +1,3 @@
-package viikko6;
-
-
 import java.io.IOException;
 
 import java.nio.charset.StandardCharsets;
@@ -59,17 +56,17 @@ public class WordCount {
 
 
 
-			System.out.println(lineCount + " rivi‰");
+			System.out.println(lineCount + " rivi√§");
 
 			System.out.println(wordCount + " sanaa");
 
-			System.out.println(markCount + " merkki‰");
+			System.out.println(markCount + " merkki√§");
 
 
 
 		} catch (IOException e) {
 
-			// TODO Auto-generated catch block
+			
 
 			e.printStackTrace();
 
