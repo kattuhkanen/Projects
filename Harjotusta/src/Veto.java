@@ -1,6 +1,3 @@
-package Testikoe;
-
-
 import java.text.DecimalFormat;
 
 import java.util.Scanner;
@@ -37,7 +34,7 @@ public class Veto {
 
 			double painoViikonlopussa = currentWeight - erotusPerViikko * i;
 
-			System.out.println(i + ". viikonlopussa painon pit‰isi olla " + df.format(painoViikonlopussa));
+			System.out.println(i + ". viikonlopussa painon pit√§isi olla " + df.format(painoViikonlopussa));
 
 
 
