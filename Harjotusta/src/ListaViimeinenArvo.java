@@ -19,7 +19,7 @@ public class ListaViimeinenArvo {
 
 
 
-        System.out.println("Syˆt‰ sanoja listalle. Tyhj‰ tai yhdysviiva (-) lopettaa:");
+        System.out.println("Sy√∂t√§ sanoja listalle. Tyhj√§ tai yhdysviiva (-) lopettaa:");
 
 
 
@@ -48,11 +48,7 @@ public class ListaViimeinenArvo {
         System.out.println(eka);
 
 
-        System.out.println(); // Tyhj‰ rivi tulosteeseen
-
-
-
-        // TODO: T‰ydenn‰ koodia teht‰v‰nannon mukaisesti
+        System.out.println();
 
     }
 
