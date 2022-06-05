@@ -1,6 +1,3 @@
-package Listoja;
-
-
 import java.util.ArrayList;
 
 import java.util.List;
@@ -21,7 +18,7 @@ public class ListanViimeinenArvo {
 
 
 
-		System.out.println("Syˆt‰ sanoja listalle. Tyhj‰ tai yhdysviiva (-) lopettaa:");
+		System.out.println("Sy√∂t√§ sanoja listalle. Tyhj√§ tai yhdysviiva (-) lopettaa:");
 
 
 
@@ -47,12 +44,7 @@ public class ListanViimeinenArvo {
 
 
 
-		System.out.println(); // Tyhj‰ rivi tulosteeseen
-
-
-
-		// TODO: T‰ydenn‰ koodia teht‰v‰nannon mukaisesti
-
+		System.out.println(); 
 
 
 		System.out.println(lista.get(lista.size() - 1));
