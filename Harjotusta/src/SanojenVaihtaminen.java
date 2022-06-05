@@ -1,6 +1,3 @@
-package Listoja;
-
-
 import java.util.Arrays;
 
 import java.util.Scanner;
@@ -23,7 +20,7 @@ public class SanojenVaihtaminen {
 
 
 
-		System.out.println("Mitk‰ sanat vaihdetaan kesken‰‰n?");
+		System.out.println("Mitk√§ sanat vaihdetaan kesken√§√§n?");
 
 		int firstIndex = scanner.nextInt();
 
