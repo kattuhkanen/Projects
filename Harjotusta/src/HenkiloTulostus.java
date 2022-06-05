@@ -12,7 +12,7 @@ public class HenkiloTulostus {
     }
 
     public static void tulostaHenkilot(List<Henkilo> henkilot) {
-        // Täydennä metodin toteutus tänne
+        
     	for (Henkilo Henkilo : henkilot) {
 			System.out.println(Henkilo);
     }
