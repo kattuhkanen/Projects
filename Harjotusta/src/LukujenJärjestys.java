@@ -1,8 +1,6 @@
-package Koe;
-
 import java.util.Scanner;
 
-public class LukujenJ‰rjestys {
+public class LukujenJ√§rjestys {
 
 
 
@@ -12,7 +10,7 @@ public class LukujenJ‰rjestys {
 
 		Scanner scanner = new Scanner(System.in);
 
-		System.out.println("Syˆt‰ kymmenen kokonaislukua: ");
+		System.out.println("Sy√∂t√§ kymmenen kokonaislukua: ");
 
 		int kokonaisLuvut[] = new int[10];
 
@@ -58,15 +56,15 @@ public class LukujenJ‰rjestys {
 
 		if (counterAsc == 9) {
 
-			System.out.println("Luvut ovat kasvavassa j‰rjestyksess‰.");
+			System.out.println("Luvut ovat kasvavassa j√§rjestyksess√§.");
 
 		} else if (counterDesc == 9) {
 
-			System.out.println("Luvut ovat laskevassa j‰rjestyksess‰.");
+			System.out.println("Luvut ovat laskevassa j√§rjestyksess√§.");
 
 		} else {
 
-			System.out.println("Luvut ovat ep‰j‰rjestyksess‰.");
+			System.out.println("Luvut ovat ep√§j√§rjestyksess√§.");
 
 		}
 
