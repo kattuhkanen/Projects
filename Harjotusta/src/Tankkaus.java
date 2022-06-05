@@ -1,6 +1,3 @@
-package Testikoe;
-
-
 import java.text.DecimalFormat;
 
 
@@ -49,7 +46,7 @@ public class Tankkaus {
 
 		DecimalFormat df = new DecimalFormat("00.00");
 
-		return "P‰iv‰: " + this.date + "\n" + "Maksettu: " + df.format(this.laskeTankkaus());
+		return "P√§iv√§: " + this.date + "\n" + "Maksettu: " + df.format(this.laskeTankkaus());
 
 
 
