@@ -1,5 +1,3 @@
-package viikko1;
-
 import java.util.Scanner;
 
 
@@ -10,7 +8,7 @@ public class Bitcoin {
 
 	public static void main(String[] args) {
 
-		System.out.print("Anna Bitcoineihin investoidun rahan m‰‰r‰:");
+		System.out.print("Anna Bitcoineihin investoidun rahan m√§√§r√§:");
 
 		Scanner scanner = new Scanner(System.in);
 
