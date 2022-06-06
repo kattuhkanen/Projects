@@ -1,5 +1,3 @@
-package viikko5;
-
 public class Artist {
 
 
@@ -40,7 +38,7 @@ public class Artist {
 
 	public int getYearOfBirth() {
 
-		// Kirjoita t‰m‰n metodin toteutus
+		// Kirjoita t√§m√§n metodin toteutus
 
 		return this.yearOfBirth;
 
