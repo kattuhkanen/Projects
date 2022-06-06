@@ -1,4 +1,3 @@
-package viikko6;
 import java.util.Scanner;
 
 
@@ -15,7 +14,7 @@ public class ArvonTarkastus {
 
 
 
-		System.out.print("Syötä luku väliltä 0-23:");
+		System.out.print("SyÃ¶tÃ¤ luku vÃ¤liltÃ¤ 0-23:");
 
 		int number = Integer.parseInt(scanner.nextLine());
 
