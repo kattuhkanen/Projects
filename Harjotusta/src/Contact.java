@@ -1,5 +1,3 @@
-package viikko6;
-
 public class Contact {
 
 
