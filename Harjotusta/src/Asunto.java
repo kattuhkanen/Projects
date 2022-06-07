@@ -1,6 +1,3 @@
-package viikko5;
-
-
 import java.text.DecimalFormat;
 
 
