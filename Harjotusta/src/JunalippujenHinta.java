@@ -1,4 +1,3 @@
-package java_koodi;
 import java.util.Scanner;
 public class JunalippujenHinta {
 
@@ -12,9 +11,9 @@ public class JunalippujenHinta {
 	        int vastaus = lukija.nextInt();
 
 	        if (vastaus == 1) {
-	            System.out.println("Kuukausilippu maksaa " + kuukausilipunHinta + " €");
+	            System.out.println("Kuukausilippu maksaa " + kuukausilipunHinta + " â‚¬");
 	        } else {
-	            System.out.println("Kuinka monta kertalippua käytät kuukaudessa?");
+	            System.out.println("Kuinka monta kertalippua kÃ¤ytÃ¤t kuukaudessa?");
 	            int kertalippuja = lukija.nextInt();
 	            int kokonaishinta = kertalippuja * kertalipunHinta;
 
@@ -22,7 +21,7 @@ public class JunalippujenHinta {
 	                System.out.println("Kuukausilippu olisi halvempi");
 	            } else {
 	                int saasto = kuukausilipunHinta - kokonaishinta;
-	                System.out.println("Säästät " + saasto + " € verrattuna kuukausilippuun");
+	                System.out.println("SÃ¤Ã¤stÃ¤t " + saasto + " â‚¬ verrattuna kuukausilippuun");
 	            }
 	        }
 
